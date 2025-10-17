@@ -18,15 +18,7 @@ That sense of structure is what makes C both strict and elegant. It doesn’t ho
 
 Still, even though goto was the source of so many headaches, C didn’t completely get rid of it. Dennis Ritchie, the creator of C, understood that sometimes goto could actually make code cleaner if used carefully. For example, if you have several nested loops and need to exit them all at once, a single goto might make more sense than multiple break statements or condition checks. A situation like this is common:
 
-for (i = 0; i < 1000; i++) {
-    for (j = 0; j < 1000; j++) {
-        for (k = 0; k < 1000; k++) {
-            if (condition)
-                goto break_out;
-        }
-    }
-}
-break_out:
+![My Image](545fc901-3897-4c12-80c5-aba151ebf3f5.jpeg)
 
 In a case like this, goto isn’t bad. It’s just efficient. The real problem starts when people use it carelessly, jumping into random parts of code without thinking about how it affects everything else. That’s when programs become unpredictable. It’s like skipping to the middle of a book and expecting the story to still make sense.
 
