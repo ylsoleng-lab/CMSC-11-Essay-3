@@ -8,9 +8,8 @@ Back then, programming languages didn’t have while loops, if statements, or fu
 
 The for loop in C shows this idea perfectly. It has everything laid out in one line: the start, the condition, and the step. You can see where it begins and when it ends, and that gives you control. A simple loop like:
 
-for (i = 0; i < 10; i++) {
-    printf("%d\n", i);
-}
+![My Image](bcfeb993-e946-4a0d-81df-137df64b9599.jpeg)
+
 
 tells you everything you need to know in just a few characters. You know how many times it will run, what variable it uses, and what happens after every iteration. There’s no hidden logic or surprise. It’s a small example of how C makes you think clearly and stay aware of what’s happening behind the scenes.
 
