@@ -10,7 +10,6 @@ The for loop in C shows this idea perfectly. It has everything laid out in one l
 
 ![My Image](bcfeb993-e946-4a0d-81df-137df64b9599.jpeg)
 
-
 tells you everything you need to know in just a few characters. You know how many times it will run, what variable it uses, and what happens after every iteration. There’s no hidden logic or surprise. It’s a small example of how C makes you think clearly and stay aware of what’s happening behind the scenes.
 
 That sense of structure is what makes C both strict and elegant. It doesn’t hold your hand, but it gives you the right tools if you’re willing to use them properly. The while and do-while loops show this too. They both repeat code, but in slightly different ways. The while loop checks the condition first, which means the code inside might not run at all if the condition is false. The do-while loop, on the other hand, runs the code first before checking. It’s a small difference, but it gives the programmer freedom to choose what fits their logic best.
